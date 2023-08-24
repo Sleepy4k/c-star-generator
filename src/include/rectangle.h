@@ -10,6 +10,8 @@
 */
 void generate_rectangle(int height, int width, char character) {
   int i, j;
+  
+  printf("\n");
 
   for (i = 0; i < height; i++) {
     for (j = 0; j < width; j++) {
@@ -18,6 +20,8 @@ void generate_rectangle(int height, int width, char character) {
 
     printf("\n");
   }
+
+  printf("\n");
 }
 
 /*
